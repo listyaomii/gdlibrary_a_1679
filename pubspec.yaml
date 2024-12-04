@@ -1,0 +1,42 @@
+name: gdlibrary_a_1679
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  intl: ^0.19.0
+  image_picker: ^1.0.4
+  uuid: ^3.0.6
+  pdf: ^3.11.1
+  barcode_widget: ^2.0.4
+  printing: ^5.12.0
+  responsive_sizer: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  assets:
+    - assets/logo.jpg
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Regular.ttf
+        - asset: fonts/Raleway-Italic.ttf
+          style: italic
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+
+  uses-material-design: true
